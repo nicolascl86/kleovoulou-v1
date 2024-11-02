@@ -1,15 +1,73 @@
+/* Reset or Normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
 body {
     background-color: lightblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
 h1 {
     font-size: 24px;
 }
+
 h2 {
     font-size: 22px;
 }
+
 h3 {
     font-size: 20px;
 }
-h1, h2 {
-    font-weight: bold;
+
+/* Layout Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Component Styles */
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Utility Classes */
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
 }
